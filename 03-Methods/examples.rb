@@ -1,11 +1,10 @@
-
 #############################################################################################################################
 # Exercise 1 
 # Write a program that contains a method called greeting that takes a name as its parameter. It then prints a greeting message 
 # with the name included in it.
 
 def greeting name
-	puts "Hello #{name}!"
+  puts "Hello #{name}!"
 end
 
 puts "-----------------------"
@@ -65,7 +64,6 @@ puts "Exercise 4"
 puts "-----------------------"
 puts "Nothing because there's a blank return before trying to print the arguments." 
 
-
 #############################################################################################################################
 # Exercise 5
 #  1) Edit the method in exercise #4 so that it does print words on the screen.
@@ -82,7 +80,6 @@ puts "-----------------------"
 scream "Yippeee"
 puts "It returns nil because the method only prints data, it does not return it."
 
-
 #############################################################################################################################
 # Exercise 6
 # What does the following error message tell you?
@@ -96,4 +93,3 @@ puts "-----------------------"
 puts "Exercise 6"
 puts "-----------------------"
 puts "The error message says that the method expected two arguments but was only supplied one."
-

@@ -10,7 +10,6 @@ puts "Exercise 1"
 puts "-----------------------"
 puts "#{first_name} #{last_name}"
 
-
 #############################################################################################################################
 # Exercise 2 
 # Use the modulo operator, division, or a combination of both to take a 4 digit number and find 
@@ -43,17 +42,16 @@ puts hundreds
 puts tens
 puts ones
 
-
 #############################################################################################################################
 # Exercise 3
 # Write a program that uses a hash to store a list of movie titles with the year they came out. 
 # Then use the puts command to make your program print out the year of each movie to the screen. 
 
 movie_hash = { 	:random_movie1 => 2000, 
-				:random_movie2 => 2001, 
-				:random_movie3 => 2002,
-				:random_movie4 => 2003,
-				:random_movie5 => 2004 }		
+                :random_movie2 => 2001, 
+                :random_movie3 => 2002,
+                :random_movie4 => 2003,
+                :random_movie5 => 2004 }		
 
 puts "-----------------------"
 puts "Exercise 3"
@@ -63,7 +61,6 @@ puts movie_hash[:random_movie2]
 puts movie_hash[:random_movie3]
 puts movie_hash[:random_movie4]
 puts movie_hash[:random_movie5]
-
 
 #############################################################################################################################
 # Exercise 4
@@ -81,7 +78,6 @@ puts movie_array[2]
 puts movie_array[3]
 puts movie_array[4]
 
-
 #############################################################################################################################
 # Exercise 5
 # Write a program that outputs the factorial of the numbers 5, 6, 7, and 8.
@@ -95,7 +91,6 @@ puts factorial5
 puts 6 * factorial5
 puts 7 * 6 * factorial5
 puts 8 * 7 * 6 * factorial5
-
 
 #############################################################################################################################
 # Exercise 6
@@ -112,7 +107,6 @@ puts num1 * num1
 puts num2 * num2
 puts num3 * num3
 
-
 #############################################################################################################################
 # Exercise 7
 # What does the following error message tell you?
@@ -123,4 +117,3 @@ puts "-----------------------"
 puts "Exercise 7"
 puts "-----------------------"
 puts "There's a missing curly brace somewhere."
-
