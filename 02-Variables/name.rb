@@ -53,7 +53,7 @@ puts "-----------------------"
 puts "-----------------------"
 puts "Exercise 5"
 puts "-----------------------"
-puts "If the programs are run one after another, they do not break and they both print 3 to the screen. However, if the second program runs without the first one being run first, x never gets instantiated and will not exist within its scope."
+puts "If the programs are run one after another, they do not break and they both print 3 to the screen. However, if the second program runs without the first one being run first, x never gets initialized and will not exist within its scope."
 
 
 #############################################################################################################################

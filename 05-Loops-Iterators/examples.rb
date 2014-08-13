@@ -21,11 +21,11 @@ puts "-----------------------"
 puts "Exercise 2"
 puts "-----------------------"
 
-# user_input = ""
-# while user_input != "STOP"
-#   puts "Hi there, say anything! Say STOP to stop"
-#   user_input = gets.chomp  
-# end  
+user_input = ""
+while user_input != "STOP"
+ puts "Hi there, say anything! Say STOP to stop"
+ user_input = gets.chomp  
+end  
 
 #############################################################################################################################
 # Exercise 3
